@@ -1,0 +1,58 @@
+# Node.js modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Compiled source #
+###################
+dist/
+build/
+*.js.map
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test results
+coverage/
+
+# Generated files
+*.tgz
+*.zip
+
+# Miscellaneous
+*.pem
+*.key
+*.crt
+
+# macOS specific
+*.DS_Store
+
+# Windows specific
+*.exe
+*.dll
+*.com
+*.bat
+*.cmd
+
+# Yarn
+.yarn/
+.pnp.*

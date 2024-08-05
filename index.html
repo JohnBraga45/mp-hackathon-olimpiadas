@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos Olímpicos - Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Jogos Olímpicos - Dashboard</h1>
+    </div>
+    <div class="sidebar">
+        <h2>Filtros</h2>
+        <label for="year">Ano:</label>
+        <select id="year">
+            <option value="2024">2024</option>
+        </select><br><br>
+        <label for="country">País:</label>
+        <select id="country"></select><br><br>
+        <label for="sport">Esporte:</label>
+        <select id="sport"></select><br><br>
+        <label for="medal">Tipo de Medalha:</label>
+        <select id="medal">
+            <option value="gold">Ouro</option>
+            <option value="silver">Prata</option>
+            <option value="bronze">Bronze</option>
+        </select><br><br>
+    </div>
+    <div class="main-content">
+        <div class="chart-container" id="medalChartContainer">
+            <canvas id="medalChart"></canvas>
+            <div id="noDataMessage" class="no-data-message">
+                Nenhum dado disponível para os filtros selecionados.
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Jogos Olímpicos - Dashboard</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "olympics-dashboard",
+  "version": "1.0.0",
+  "description": "Testes para o dashboard das Olimpíadas",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha tests/dashboard.test.js"
+  },
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/register": "^7.22.5"
+  },
+  "type": "module"
+}
